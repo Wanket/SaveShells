@@ -1,0 +1,136 @@
+{
+    "autoReload": {
+        "saveInClip": {
+            "enabled": true,
+            "sound": {
+                "enabled": false,
+                "soundName": "SaveShellsQuiet"
+            },
+            "text": "ВНИМАНИЕ! Не хватает снарядов на следующий барабан"
+        },
+        "saveInOneClip": {
+            "enabled": false,
+            "percent": 30.0,
+            "sound": {
+                "enabled": false,
+                "soundName": "SaveShellsQuiet"
+            },
+            "text": "ВНИМАНИЕ! Осталось менее {{current-shells-clip}} снарядов в барабане"
+        }
+    },
+    "default_percent": [
+	    90,
+        50,
+        25,
+        10
+    ],
+    "enabled": true,
+    "notifications": {
+        "classNames": {
+            "AT-SPG": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "SPG": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "heavyTank": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "lightTank": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "mediumTank": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            }
+        },
+        "levels": {
+            "1": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "10": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "2": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "3": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "4": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "5": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "6": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "7": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "8": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            },
+            "9": {
+                "enabled": false,
+                "percent": [
+                    0
+                ]
+            }
+        },
+        "my": true,
+        "sound": {
+            "enabled": false,
+            "soundName": "SaveShellsQuiet"
+        },
+        "squad": true,
+        "team": false,
+        "texts": {
+            "my": "ВНИМАНИЕ! Осталось менее {{current-shells}}({{shells-percent}}%) снарядов",
+            "squad": "ВНИМАНИЕ! Осталось менее {{current-shells}}({{shells-percent}}%) снарядов",
+            "team": "У меня осталось менее {{current-shells}}({{shells-percent}}%) снарядов, прошу понять и простить:)"
+        }
+    }
+}
